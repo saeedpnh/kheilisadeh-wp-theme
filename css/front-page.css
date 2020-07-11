@@ -1,0 +1,187 @@
+@import url("fonts.css");
+@import url("general.css");
+@import url("navbar.css");
+
+/***** banner *****/
+.banner-image {
+  height: 350px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.banner p {
+  font-family: sanslight;
+  color: #898270;
+  line-height: 2;
+  direction: rtl;
+}
+
+/***** banner end *****/
+
+/***** About *****/
+#about {
+  background-color: var(--red);
+  position: relative;
+  padding-bottom: var(--bottom-svg-ratio);
+  height: 90vh;
+}
+
+#about p {
+  font-family: sanslight;
+  color: #ffffff;
+  line-height: 2;
+  direction: rtl;
+}
+
+#about a {
+  text-decoration: none;
+}
+
+#about .btn-more {
+  color: #898270;
+  background-color: #fee7dd;
+}
+
+/***** About end *****/
+
+/****** skills  ******/
+#skills {
+  background: url(../img/side1.svg) no-repeat top left;
+  background-size: contain;
+}
+
+@media (max-width: 992px) {
+  #skills {
+    background: url(../img/side1.svg) no-repeat top left;
+    background-size: 30%;
+  }
+}
+
+@media (max-width: 576px) {
+  #skills {
+    background: none;
+  }
+}
+
+#skills .category-box {
+  box-shadow: 0px 10px 30px rgba(55, 43, 125, 0.1);
+  border-radius: 25px;
+  padding: 15px;
+  margin: 5px;
+}
+
+#skills .category-box h3 {
+  font-family: sanslight;
+  font-size: 2em;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #skills .category-box h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 768px) {
+  #skills .category-box h3 {
+    overflow-wrap: break-word;
+  }
+}
+
+#skills .category-box a {
+  text-decoration: none;
+  color: #898270;
+}
+
+#skills .category-box:hover {
+  box-shadow: 0px 10px 30px rgba(252, 185, 178, 1);
+}
+
+#skills .category-box:hover img {
+  transition: all 0.1s ease-in;
+  filter: grayscale(100%);
+}
+
+/****** skills  end ******/
+
+/***** latest-post *****/
+#latest-post p {
+  font-family: sanslight;
+  color: #898270;
+  line-height: 2;
+  direction: rtl;
+}
+
+#latest-post .box {
+  box-shadow: 0px 10px 30px rgba(55, 43, 125, 0.1);
+  background: url(../img/box.svg) no-repeat center center;
+  background-size: cover;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  #latest-post .box {
+    margin: 10px 0;
+  }
+}
+
+#latest-post .box img {
+  transition: all 0.3s ease-in-out;
+}
+
+#latest-post .box:hover {
+  box-shadow: 0px 10px 30px rgba(55, 43, 125, 0.2);
+  background: url(../img/box-hover.svg) no-repeat center center;
+  background-size: cover;
+}
+
+#latest-post .box:hover img {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+}
+
+#latest-post .box a {
+  text-decoration: none;
+}
+
+/***** latest-post end *****/
+
+/***** Testimonial *****/
+#testimonial {
+  position: relative;
+  padding-bottom: var(--bottom-svg-ratio);
+  margin-top: 200px;
+}
+
+#testimonial .img-container {
+  position: relative;
+  display: block;
+}
+
+#testimonial .img-container .frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+#testimonial .img-container .main-photo {
+  position: relative;
+  transform: scale(0.8);
+  top: -1px;
+  left: -5px;
+}
+
+#testimonial blockquote p {
+  font-family: aviny;
+  font-size: 1.3em;
+  color: #898270;
+}
+
+/***** Testimonial end *****/
