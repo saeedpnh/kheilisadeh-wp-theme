@@ -71,19 +71,19 @@
         <div class="col-md-8 text-center">
           <div class="row justify-content-center wow animated fadeInUp">
             <div class="col-3 col-md-4 col-lg-3 category-box">
-              <a href="<?php echo esc_url( get_category_link('1') ) ?>">
+              <a href="<?php echo esc_url( get_category_link('2') ) ?>">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/skills/html.png" alt="html" width="100" height="120">
                 <h3 class="pt-2 text-center">html</h3>
               </a>
             </div>
             <div class="col-3 col-md-4 col-lg-3 category-box">
-              <a href="">
+              <a href="<?php echo esc_url( get_category_link('3') ) ?>">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/skills/css.png" alt="" width="100" height="120">
                 <h3 class="pt-2 text-center">css</h3>
               </a>
             </div>
             <div class="col-3 col-md-4 col-lg-3 category-box">
-              <a href="">
+              <a href="<?php echo esc_url( get_category_link('4') ) ?>">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/skills/js.png" alt="" width="100" height="120">
                 <h3 class="pt-2 text-center">javascript</h3>
               </a>
@@ -91,21 +91,21 @@
           </div>
           <div class="row justify-content-center mt-5 wow animated fadeInUp">
             <div class="col-3 col-md-4 col-lg-3 category-box">
-              <a href="">
+              <a href="<?php echo esc_url( get_category_link('5') ) ?>">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/skills/react.png" alt="" width="170" height="150">
                 <h3 class="pt-2 text-center">react</h3>
               </a>
             </div>
             <div class="col-3 col-md-4 col-lg-3 category-box">
-              <a href="">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/skills/general.png" alt="" width="130" height="150">
-                <h3 class="pt-2 text-center">عمومی</h3>
+              <a href="<?php echo esc_url( get_category_link('6') ) ?>">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/skills/wordpress.png" alt="" width="150" height="150">
+                <h3 class="pt-2 text-center">wordpress</h3>
               </a>
             </div>
             <div class="col-3 col-md-4 col-lg-3 category-box">
-              <a href="">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/skills/wordpress.png" alt="" width="150" height="150">
-                <h3 class="pt-2 text-center">wordpress</h3>
+              <a href="<?php echo esc_url( get_category_link('7') ) ?>">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/skills/general.png" alt="" width="130" height="150">
+                <h3 class="pt-2 text-center">عمومی</h3>
               </a>
             </div>
           </div>

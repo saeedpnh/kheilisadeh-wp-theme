@@ -27,7 +27,7 @@
             <li class="nav-item"><a href="<?php echo esc_url(get_home_url()); ?>" class="nav-link js-scroll-trigger">خانه</a></li>
             <li class="nav-item"><a href="<?php echo esc_url(site_url('/about')); ?>" class="nav-link js-scroll-trigger">درباره من</a></li>
             <?php if(!is_home()) { ?>
-              <li class="nav-item"><a href="<?php esc_url(site_url('/blog')) ?>" class="nav-link js-scroll-trigger">وبلاگ</a></li>
+              <li class="nav-item"><a href="<?php echo get_permalink(get_option('page_for_posts')) ?>" class="nav-link js-scroll-trigger">وبلاگ</a></li>
             <?php } ?>
           </ul>
         </div>
